@@ -1,6 +1,7 @@
 # Projeto-Newsletter
 
 English::
+
 Responsive Landing Page
 This project is a responsive landing page created with HTML and CSS for the purpose of studying web development. The landing page is designed for a fictional marketing and creative services company called "Creative Marketing."
 
