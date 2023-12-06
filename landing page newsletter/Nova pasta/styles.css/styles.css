@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(34, 34, 34)  ;
+    color: whitesmoke;
+    font-family: poppinsregular; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inscreva-se{
+    border: 1px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#inscreva-se:hover{
+    border: 1px solid whitesmoke;
+    color: rgb(132, 14, 201);
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+
+li{
+    display: inline-block;
+    margin: 40px;
+}
+
+a{
+    color: whitesmoke;
+}
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.5s;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+   font-size: 55px; 
+   line-height: 10px;
+   font-family: poppinsmedium;  
+}
+
+span{
+    color: rgb(132, 14, 201);
+}
+
+span:hover{
+    color: blueviolet;
+    transition: 1s;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 620px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+form [type=submit]{
+    height: 50px;
+    background-color:rgb(132, 14, 201);
+    color: whitesmoke;
+    width: 55%;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+form [type=submit]:hover{
+    height: 50px;
+    background-color: blueviolet;
+    transition: 0.3s;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+input{
+    margin-top: 10px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-family: poppinslight;
+}
